@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+    <title>Examen</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="estilos.css" />
+</head>
+
+<body>
+    <div id="general">
+        <div id="menu">
+            <div class="opcionInicio"><a href="index.html">Inicio</a></div>
+            <div class="opcion">Peliculas
+                <div class="subopcion"> <a href="elpadrino.html">El padrino</a></div>
+                <div class="subopcion"> <a href="padrino2.html">El padrino 2</a></div>
+                <div class="subopcion"> <a href="senderosdegloria.html">Senderos de Gloria</a></div>
+                <div class="subopcion"> <a href="thefrontpage.html">The Front Page</a></div>
+            </div>
+
+            <div class="opcion">Actores
+                <div class="subopcion"> <a href="MarlonBrando.html">Marlon Brando</a></div>
+                <div class="subopcion"> <a href="AlPacino.html">Al Pacino</a></div>
+                <div class="subopcion"> <a href="kirkdouglas.html">kirk douglas</a></div>
+                <div class="subopcion"> <a href="JackLemmon.html">Jack Lemmon</a></div>
+            </div>
+
+            <div class="opcion">Usuario
+                <div class="subopcion"> <a href="iniciosesion.html">Inicio Sesion</a></div>
+                <div class="subopcion"> <a href="registro.html">Registrar</a></div>
+            </div>
+        </div>
+    </div>
+            <br><br><br><br>
+
+            <table align="center">
+                <tbody>
+        
+                    <form action="registrarsegracias.html" method="get">
+                        <tr>
+                            <td><label for="nombre">Nombre</label></td>
+                            <td><input type="text" name="nombre" required></td>
+                        </tr>
+        
+                        <tr>
+                            <td><label for="apellidos">Apellidos</label></td>
+                            <td><input type="text" name="apellidos"></td>
+                        </tr>
+        
+                        <tr>
+                            <td><label for="contrasenya">Contraseña</label></td>
+                            <td><input type="password" name="contraseña" required></td>
+                        </tr>
+        
+                        <tr>
+                            <td><label for="email">Email</label></td>
+                            <td><input type="email" name="email"></td>
+                        </tr>
+        
+                        <tr>
+                            <td><label for="telefono">Teléfono</label></td>
+                            <td><input type="tel" pattern="[0-9]{9}"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="sexo">Sexo</label></td>
+                            <td><input type="radio" name="sexo" required>Hombre
+                                <input type="radio" name="sexo" required>Mujer
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="aficiones">Aficiones</label></td>
+                            <td><select name="aficiones" size="4" multiple>
+                                    <option value="1">Leer</option>
+                                    <option value="2">Música</option>
+                                    <option value="3">Deporte</option>
+                                    <option value="4">Cine</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td><label for="comentarios">Comentarios</label></td>
+                            <td><textarea name="comentarios" cols="20" rows="4"
+                                    placeholder="Escribe aquí tus comentarios."></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><br><input type="submit" value="Enviar" style="margin-left: 35%">
+                                <input type="reset" value="Borrar">
+                            </td>
+                        </tr>
+                    </form>
+        
+        
+        
+        
+                    </tr>
+                </tbody>
+            </table>
+       
+</body>
+
+</html>
