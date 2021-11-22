@@ -36,7 +36,7 @@
             <br><br><br><br>
             <br><br><br><br>
 
-            <table align="center">
+            <table id="registro">
                 <tbody>
         
                     <form action="registrarsegracias.html" method="get">
@@ -50,13 +50,17 @@
                             <td><input type="password" name="contraseña" required></td>
                         </tr>
         
-                        
+                        <tr>
+                            <td></td>
+                            <td><input type="checkbox" value="rememberMe" id="rememberMe"> <label for="rememberMe">Recuerdame</label></td>
+                        </tr>
+        
         
                         
                         <tr>
                             <td></td>
-                            <td> <br> <input type="submit" value="Enviar" style="margin-left: 20%">
-                                <input type="reset" value="Borrar">
+                            <td>  <input type="submit" value="Enviar" id="submit">
+                                <input type="reset" value="Borrar" id="reset">
                             </td>
                         </tr>
                     </form>
